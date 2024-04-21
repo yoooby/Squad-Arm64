@@ -1,9 +1,7 @@
 ############################################################
 # Dockerfile that builds a Squad Gameserver
 ############################################################
-FROM cm2network/steamcmd:root
-
-LABEL maintainer="walentinlamonos@gmail.com"
+FROM sonroyaalmerol/steamcmd-arm64:root
 
 ENV STEAMAPPID 403240
 ENV STEAMAPP squad
